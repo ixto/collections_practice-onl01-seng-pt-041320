@@ -38,7 +38,7 @@ def find_a(array)
  end
 end
 
-#### def swap_elements(array) 
-# ###array.sort_by {|idx| idx[2] <=> idx[0]} 
+def swap_elements(array) 
+  array.sort_by {|idx| idx[2] <=> idx[0]} 
 ##### end
 
